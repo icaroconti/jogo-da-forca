@@ -1,0 +1,65 @@
+.base{
+    position: absolute;
+    right: 40%;
+    transform: scale(0.6);
+} 
+.haste-maior{
+    position: absolute;
+    left: 40%;
+    margin-top: -285px;
+    margin-left: 50px;
+    transform: scale(0.6);
+}
+.haste-menor {
+    display: none;
+    position: absolute;
+    margin-top: -365px ;
+    margin-left: 653.67px ;
+}
+.corda{
+    display: none;
+    position: absolute;
+    margin-top: -365px ;
+    margin-left: 828px ;
+}
+
+.cabeca{
+    display: none;
+    position: absolute;
+    margin-top: -320px ;
+    margin-left: 800px ;
+}
+
+.corpo{
+    display: none;
+    position: absolute;
+    margin-top: -260px ;
+    margin-left: 828px ;
+}   
+  
+.braco-direito{
+    display: none;
+    position: absolute;
+    margin-top: -262px ;
+    margin-left: 828px ;
+}
+
+.braco-esquerdo{
+    display: none;
+    position: absolute;
+    margin-top: -262px ;
+    margin-left: 795px ;
+}
+.perna-direita{
+    display: none;
+    position: absolute;
+    margin-top: -130px ;
+    margin-left: 830px ;
+}
+
+.perna-esquerda{
+    display: none;
+    position: absolute;
+    margin-top: -130px ;
+    margin-left: 794px ;
+}

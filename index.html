@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Jogo da forca</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/forca.css">
+        <link rel="stylesheet" type="text/css" href="css/boneco.css">
+	</head>
+	<body>
+
+		<header class="cabecalho">
+			<div class="div-cabecalho">
+                <img class="logo" src="img/logo-alura.png">
+				<h1 class="titulo">Jogo da Forca</h1>
+			</div>
+		</header>
+		<main>
+            <section class="menu-principal">
+                <div class="conteudo-principal">
+                    <button class="iniciar-jogo" >Iniciar Jogo</button>
+                    <button class="add-palavra">Adicionar Nova Palavra</button>
+                </div>
+            </section>
+
+			<section class="menu-forca invisivel">
+                <div class="final"></div>
+                <div class="palavra"></div>
+                <div class="conteudo-forca">
+                    <div class="forca-boneco">
+                        <canvas width="300" height="300"></canvas>
+                    </div>
+                    <div class="forca-palavra">
+                        <div class="linhas"></div>
+                        <div class="letras-erradas"></div>
+                    </div>
+                    <div class="botoes">
+                        <button class="novo-jogo">Novo Jogo</button>
+                        <button class="desistir">Desistir</button>
+                    </div>
+                </div>
+			</section>
+
+            <section class="menu-palavras invisivel">
+                <div class="conteudo-palavras">
+                    <p class="titulo-txt">Digite palavras de no máximo 8 letras</p>
+                    <div class="txt-inserir-palavra">
+                        <textarea class="txt-palavras" maxlength="8" placeholder="Digite uma palavra ou frase" rows="8" cols="60"></textarea>
+                        <div id="mensagem-erro"></div>
+                    </div>
+                    <div class="btn-inserir-palavra">
+                        <button class="salvar">Salvar e Começar</button>
+                        <button class="voltar">Voltar</button>
+                    </div>
+                </div>
+            </section>
+		</main>
+
+		<section class="letras">
+			<div id="box"></div>
+            <div id="name"></div>
+		</section>
+
+	</body>
+
+    <footer>
+        <p>Desenvolvido por Ícaro Conti Costa</p>
+        <a href="https://linkedin.com/in/icaroconti" target="_blank"><img src="img/linkedin.png"></a>
+        <a href="https://github.com/icaroconti" target="_blank"><img src="img/github.png"></a>
+    </footer>
+
+</html>
+
+<script src="js/menus.js"></script>
+<script src="js/regex-nova-palavra.js"></script>
+<script src="js/palavra.js"></script>
+<script src="js/desenha_boneco.js"></script>

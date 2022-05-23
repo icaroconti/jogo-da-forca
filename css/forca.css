@@ -1,0 +1,174 @@
+.invisivel{
+    display: none;
+}
+
+body{
+    background-color: beige;
+}
+
+
+.cabecalho{
+    padding: 10px;
+}
+
+.logo{
+    transform: scale(0.7);
+    position: absolute;
+    left: 10px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main section{
+    height: 80vh;
+    width: 100%;
+}
+
+.palavra{
+    display: none;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.conteudo-forca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.forca-boneco{
+    text-align: center;
+    transform: scale(0.8);
+}
+
+.linhas{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+span{
+    margin: 5px;
+    width: 20px;
+    border-bottom: 2px solid black;
+}
+
+.letras-erradas{
+    font-style: bold;
+    padding: 5px;
+    height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: grid;
+    color:crimson;
+    text-align: center;
+}
+
+.final{
+    width:200px;
+    height: 30px;
+    font-size: 30px;
+    margin: none;
+    border: none;
+    position: absolute;
+    text-align:center;
+    right: 10%;
+    top: 30%;
+}
+
+.perdeu{
+    color:crimson;
+}
+
+.venceu{
+    color:green;
+}
+
+.conteudo-palavras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.txt-palavras{
+    font-size: 18px;
+
+}
+
+.menu-principal{
+    text-align: center;
+}
+
+button{
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.05);
+
+}
+
+.novo-jogo, .salvar, .desistir, .voltar{
+    margin-bottom: 10px;
+}
+
+.iniciar-jogo, .novo-jogo, .salvar{
+   background-color: #0A3871;
+}
+
+.add-palavra, .desistir, .voltar{
+    background-color: #E5E5E5;
+}
+
+.titulo-txt{
+    font-size: 20px;
+}
+
+#mensagem-erro{
+    margin-left: 5px;
+    font-size: 18px;
+    height: 18px;
+    color: crimson;
+}
+
+footer{
+    display: flex;
+    position: relative;
+    height: 40px;
+    padding: 10px 0px;
+}
+
+footer p{
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+footer img{
+    transform: scale(0.6);
+}
+
